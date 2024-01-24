@@ -12,13 +12,13 @@ Useful properties:
 - Autoformats input strings (prepends data and time tags - configurable, appends new line characters - configurable, you can set your own new line characters)
 - Autoformatting memory buffer is provided by the user, use as much (little) memory as you see necessary
 
-Example:
-main.cpp: 
-...
-server_log.log("This is a test entry");
-...
-
-log.txt:
-[dd.mm.yyyy hh:mm:ss] This is a test entry[new line character(s) here]
-
+# Example:   
+main.cpp:  
+...  
+server_log.log("This is a test entry");  
+...  
+  
+log.txt:  
+[dd.mm.yyyy hh:mm:ss] This is a test entry[new line character(s) here]  
+  
 License: Unlicense. It's just some code. I don't care what you do with it.
