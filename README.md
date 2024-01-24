@@ -6,7 +6,7 @@ It's not intended to be the best/most feature rich/most efficient. It's intended
 
 Useful properties:
 - One trivially destructible object works with 1 log file (but configurable/reconfigurable at runtime, so it's possible to use more files if you really want)
-- Writes const char*[] and char*[] strings, null terminated or with explicit length
+- Writes const char*[] and char*[] strings, input strings can be null terminated or with explicit length
 - Returns integers with error codes, so error events can be handled (e.g. log file full, or out of memory for string formatting)
 - Basic log file size limiter (optional, by file byte length or by number of lines in the log file)
 - Autoformats input strings (prepends data and time tags - configurable, appends new line characters - configurable, you can set your own new line characters)
